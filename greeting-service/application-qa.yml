@@ -12,3 +12,4 @@ management:
 greeting-service:
   greeting: "TESTE"
   default-value: "Mundo"
+  
