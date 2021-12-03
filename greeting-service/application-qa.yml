@@ -2,8 +2,7 @@ spring:
   application:
     name: greeting-service
 
-server:
-  port: 8081
+
 management:
   endpoints:
     web:
@@ -11,5 +10,5 @@ management:
         include:
         - '*'    
 greeting-service:
-  greeting: "Olá"
+  greeting: "Ola"
   default-value: "Mundo"
